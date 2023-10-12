@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bike</title>
+<link rel="stylesheet" type="text/css" href="css/style1.css">
+</head>
+<body>
+
+ <div id="mdhead" class="md-head">
+ 	<div class="path">
+ 		
+ 	</div>
+<marquee>Click & hover on the Bikes  when some changes on the bikes</marquee>
+
+
+            <div class="md-header-inner">
+            <div class="md-logo">
+              <img src="image/mdlogo.png">
+            </div>
+            <div class="md-menu">
+             <ul>
+                <li>Home</li>
+                 <li>About</li>
+                 <li>Pages</li>
+                 <li>Course</li>
+                 <li>Blog</li>
+                 <li>Contact</li>
+                </ul>
+                          
+            </div>
+            </div>
+            <div class="thumbnail">
+            	<li><img src="image/bike4.png" onclick="big('image/bike4.png')"></li>
+            	<li><img src="image/bike5.png"onclick="big('image/bike5.png')"></li>
+            	<li><img src="image/bike3.png"onclick="big('image/bike3.png')"></li>
+            	
+            </div>
+            <div class="big-img">
+            	<img src="image/bike3.png" width="500px" height="400px" class="big">
+            </div>
+            <div class="content">
+            	<p>&#x1F525;Let's ride&#x1F525;</p><br>
+            	<h1>Don't Fear Dying Fear<br> Not Living</h1>
+            	<br>
+            	<h5>&#x1F60E;For Bike Lover & Bike Rider&#x1F49D;</h5>
+            </div>
+        
+        </div>
+</body>
+<script type="text/javascript">
+	function big(img) {
+		document.querySelector('.big').src= img;
+	}
+</script>
+</html>
